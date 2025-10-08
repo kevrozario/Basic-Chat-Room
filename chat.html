@@ -1,0 +1,22 @@
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CHAT APP</h1>
+        <div class="box">
+            <div id="names"><h2>Users:</h2></div>
+            <form id="chat-form">
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+                <input type="password" id="password" placeholder="Enter your password" required><br>
+                <input type="text" id="content" placeholder="Enter a message" required><br>
+            </form>
+            <input type="text" id="retrieve-name" placeholder="Enter the name of the user's message you want to retrieve" required><br>
+            <div id="chat-history" class="message-box"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>

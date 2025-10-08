@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; 
+    color: #fff; 
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.box {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000; 
+}
+
+#names {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff0000; 
+}
+
+.message-box {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444; 
+    color: #fff; 
+    box-sizing: border-box; 
+}
+
+
+
+.message-box {
+    background-color: #222; 
+}
+
+.message {
+    background-color: #333; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.message-box p {
+    margin: 0;
+}
+
+.message-box p:last-child {
+    margin-bottom: 0;
+}
